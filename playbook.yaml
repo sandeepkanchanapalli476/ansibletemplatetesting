@@ -5,8 +5,8 @@
     become: yes
     gather_facts: yes
     vars:
-      custom_heading: "Welcome To Telugu AWS Training B58 ASG LAB"
-      custom_heading2: "Building Custom AMI With Packer"
+      custom_heading: "Welcome To Telugu AWS Training B58 AWSB58-Systems Manager Lab"
+      custom_heading2: "Manging LINUXVM1 In Azure Through AWS SSMs Session Manger & Run Command"
       todays_date: "{{ ansible_facts['date_time']['date'] }}"
       host_name: "{{ ansible_facts['hostname'] }}"
       fqdn_name: "{{ ansible_facts['fqdn'] }}"
