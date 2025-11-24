@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <style>
+      body {
+        text-align: center;
+        font-family: Arial, sans-serif;
+        margin-top: 50px;
+      }
+      h1 {
+        font-size: 34px;
+      }
+      h2 {
+        font-size: 28px;
+      }
+      p {
+        font-size: 20px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>{{CUSTOM_HEADING}}</h1>
+    <h2>{{CUSTOM_HEADING1}}</h2>
+
+    <p><b>Date:</b> {{TODAYS_DATE}}</p>
+    <p><b>Hostname:</b> {{HOST_NAME}}</p>
+    <p><b>FQDN:</b> {{FQDN_NAME}}</p>
+    <p><b>IP Address:</b> {{IP_ADDRESS}}</p>
+  </body>
+</html>
