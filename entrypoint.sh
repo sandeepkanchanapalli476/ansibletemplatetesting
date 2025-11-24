@@ -1,3 +1,4 @@
+#!/bin/sh
 CUSTOM_HEADING="Welcome To Telugu DevOps Training By Sandeep Kumar Kanchanapalli"
 CUSTOM_HEADING1="Learning AWS ECS and EKS"
 
